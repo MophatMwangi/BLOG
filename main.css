@@ -1,0 +1,39 @@
+*{
+padding:0;
+margin:0;
+}
+
+.jeep{
+background-image: url(../images/sky.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+font-family: sans-serif;
+}
+.menu-bar{
+background:rgb(52, 152, 219);
+text-align: center;
+
+}
+.menu-bar ul{
+display:inline-flex;
+list-style: none;
+  color: #fff;
+}
+.menu-bar ul li{
+width: 100px;
+margin:2px;
+padding:2px ;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: #fff;
+}
+.active, .menu-bar ul li:hover{
+  background: rgb(52, 152, 219);
+  border-radius: 3px;
+}
+.menu-bar .fa{
+margin: 8px;
+
+}
